@@ -1,31 +1,12 @@
-HELP.md
+# .classpath
+# .project
+
+# Ignorer le dossier target
 target/
+
+# Garder les fichiers de wrapper Maven
 !.mvn/wrapper/maven-wrapper.jar
+
+# Inclure tous les fichiers dans src/main et src/test
 !**/src/main/**
 !**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
