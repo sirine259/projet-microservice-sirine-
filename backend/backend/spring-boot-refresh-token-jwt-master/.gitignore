@@ -1,33 +1,41 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# Dossiers et fichiers cachés
+.DS_Store
 .vscode/
+.idea/
+.git/
+
+# Fichiers de build et temporaires
+*.log
+*.cache
+*.tmp
+node_modules/
+target/
+dist/
+build/
+
+# Fichiers de configuration locaux
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers de dépendances spécifiques
+*.jar
+*.war
+*.class
+
+# Dossiers de tests ou de couverture
+coverage/
+test-results/
+
+# Fichiers volumineux ou non nécessaires
+*.zip
+*.tar.gz
+*.rar
+*.bak
+*.swp
+
+# Dossiers spécifiques à éviter (ajoutez selon vos besoins)
+backend/spring-boot-refresh-token-jwt-master/target/
+documentation/backend/*.pdf
