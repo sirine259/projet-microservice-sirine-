@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4cd22b2-2cdd-4961-b86b-b58a7ae3e704" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="1h8tLKkl8TFOaOCamh6uCRTRoQQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EurekaDiscoveryServiceApplication.executor": "Run",
+    "Docker.Dockerfile.executor": "Run",
+    "JUnit.EurekaDiscoveryServiceApplicationTests.contextLoads.executor": "Run",
+    "JUnit.EurekaDiscoveryServiceApplicationTests.executor": "Run",
+    "Maven.eureka-discovery-service [clean].executor": "Run",
+    "Maven.eureka-discovery-service [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EurekaDiscoveryServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pc/Desktop/Architecture Microservice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaDiscoveryServiceApplication">
+    <configuration name="EurekaDiscoveryServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka-discovery-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.discovery.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.discovery.server" />
+      <option name="MAIN_CLASS_NAME" value="com.discovery.server.EurekaDiscoveryServiceApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDiscoveryServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka-discovery-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.discovery.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.discovery.server" />
+      <option name="MAIN_CLASS_NAME" value="com.discovery.server.EurekaDiscoveryServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.discovery.server.EurekaDiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EurekaDiscoveryServiceApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.EurekaDiscoveryServiceApplicationTests" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4cd22b2-2cdd-4961-b86b-b58a7ae3e704" name="Default Changelist" comment="" />
+      <created>1599404492226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599404492226</updated>
+      <workItem from="1599404495585" duration="4000" />
+      <workItem from="1599404941795" duration="1228000" />
+      <workItem from="1601507050435" duration="29000" />
+      <workItem from="1601976566036" duration="5783000" />
+      <workItem from="1602020040711" duration="10000" />
+      <workItem from="1602064997991" duration="2258000" />
+      <workItem from="1602362909860" duration="1886000" />
+      <workItem from="1603102856719" duration="1375000" />
+      <workItem from="1603463758390" duration="255000" />
+      <workItem from="1603464704279" duration="614000" />
+      <workItem from="1603717704885" duration="638000" />
+      <workItem from="1603725469857" duration="33000" />
+      <workItem from="1603725572777" duration="649000" />
+      <workItem from="1603787734697" duration="591000" />
+      <workItem from="1603881597585" duration="591000" />
+      <workItem from="1603969118974" duration="132000" />
+      <workItem from="1604246560243" duration="597000" />
+      <workItem from="1604263737848" duration="607000" />
+      <workItem from="1604690270278" duration="58000" />
+      <workItem from="1742992895651" duration="729000" />
+      <workItem from="1742999260947" duration="22000" />
+      <workItem from="1743028805972" duration="3697000" />
+      <workItem from="1743079593312" duration="1015000" />
+      <workItem from="1743080869331" duration="1487000" />
+      <workItem from="1743082398408" duration="1054000" />
+      <workItem from="1743083477723" duration="2726000" />
+      <workItem from="1743087399959" duration="9980000" />
+      <workItem from="1743182526107" duration="111000" />
+      <workItem from="1744360879287" duration="117000" />
+      <workItem from="1744361046834" duration="974000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
