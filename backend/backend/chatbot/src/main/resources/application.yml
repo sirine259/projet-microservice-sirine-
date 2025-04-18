@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: chatbot-service
+  config:
+    import: "optional:configserver:http://localhost:8888"
+  cloud:
+    config:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/chatbot_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+server:
+  port: 8222
+
+sirine:
+  app:
+    jwtSecret: "404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970"
+    jwtExpirationMs: 3600000
+
+
+application:
+  config:
+    users-url: http://localhost:8883/api/v1/users
+
+openrouter:
+  api:
+    key: "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"
+    url: "https://openrouter.ai/api/v1/chat/completions"
+
+logging:
+  level:
+    com.backend.chatbot: DEBUG
+    org.springframework.security: DEBUG
