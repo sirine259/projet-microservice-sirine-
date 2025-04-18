@@ -1,3 +1,4 @@
 -e "* text=auto\n*.java text eol=lf\n*.xml text eol=lf\n*.json text eol=lf\n*.md text eol=lf\n*.gitignore text eol=lf\n.gitattributes text eol=lf\n*.pdf filter=lfs diff=lfs merge=lfs -text\n*.jpg filter=lfs diff=lfs merge=lfs -text\n*.png filter=lfs diff=lfs merge=lfs -text" 
 *.jar filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
 front/front/.angular/cache/**/* filter=lfs diff=lfs merge=lfs -text
