@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@primeng/themes": "^19.0.10",
+    "primeicons": "^7.0.0",
+    "primeng": "^19.0.10"
+  }
+}
